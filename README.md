@@ -5,3 +5,6 @@
 3. Run the following commands to install the dynamic libraries:
    
        apt install libtbb-dev
+
+4. Install FastAPI and required libraries in requirements.txt
+5. 

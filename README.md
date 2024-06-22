@@ -5,6 +5,7 @@
 3. Run the following commands to install the dynamic libraries:
    
        apt install libtbb-dev
+       apt install nlohmann-json3-dev
 
-4. Install FastAPI and required libraries in requirements.txt
-5. Start FastAPI
+5. Install FastAPI and required libraries in requirements.txt
+6. Start FastAPI

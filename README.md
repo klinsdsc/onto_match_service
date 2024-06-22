@@ -7,4 +7,4 @@
        apt install libtbb-dev
 
 4. Install FastAPI and required libraries in requirements.txt
-5. 
+5. Start FastAPI

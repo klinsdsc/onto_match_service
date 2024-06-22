@@ -7,5 +7,5 @@
        apt install libtbb-dev
        apt install nlohmann-json3-dev
 
-5. Install FastAPI and required libraries in requirements.txt
+5. Install FastAPI and all the required libraries in requirements.txt
 6. Start FastAPI

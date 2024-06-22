@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi_utils.timing import add_timing_middleware
 from starlette.middleware.cors import CORSMiddleware
 
-from routes import ontomap
+from routes import ontomatch
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

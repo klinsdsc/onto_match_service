@@ -10,7 +10,7 @@ router = APIRouter(tags=["OntologyMatching"], prefix='/OntologyMatching')
 
 
 @router.post("/ontomatch", include_in_schema=True)
-async def ontomap(ontology: UploadFile = File(...), data: UploadFile = File(...)):
+async def ontomatch(ontology: UploadFile = File(...), data: UploadFile = File(...)):
     with tempfile.NamedTemporaryFile(delete=False, mode='wb') as onto_file:
         ontology_content = await ontology.read()
         onto_file.write(ontology_content)
